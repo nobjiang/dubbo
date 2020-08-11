@@ -13,5 +13,6 @@
     <dubbo:registry protocol="zookeeper" address="124.70.220.74:2181"/>
 
     <dubbo:reference id="serviceAPI" timeout="50000" interface="cucn.epoch.dubbo.tccapi.ServiceAPI" />
+    <dubbo:reference id="setServiceAPI" timeout="50000" interface="cucn.epoch.dubbo.tccapi.SetServceAPI" />
 
 </beans>
